@@ -60,6 +60,7 @@ nav > ul>li>a, footer>a, #log {
     padding-left:8%;
     padding-top:25px;
     padding-bottom:25px;
+    font-weight:bolder;
 }
 
 nav > ul>li>a:hover{
