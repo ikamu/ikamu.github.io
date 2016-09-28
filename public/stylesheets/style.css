@@ -23,6 +23,7 @@ nav, footer, .sidebar {
     text-align:center;
     position:relative;
     width:100%;
+    margin:auto;
 
 }
 
@@ -209,4 +210,16 @@ p:target {
 }
 h1,h2 {text-align:center;
     color:blue;
+}
+
+#acc {
+    text-align:center;
+    font-weight:bold;
+}
+
+main {
+    
+    width:70%;
+    margin:auto;
+    font-size:120%;
 }
