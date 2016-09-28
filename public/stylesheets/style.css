@@ -50,6 +50,7 @@ nav > ul, footer, .sidebar > ul {
 
 nav > ul > li,#log, #log .btn {
     display:inline;
+    
    
 }
 
@@ -62,6 +63,7 @@ nav > ul>li>a, footer>a, #log {
     padding-top:25px;
     padding-bottom:25px;
     font-weight:bolder;
+    
 }
 
 nav > ul>li>a:hover{
@@ -227,5 +229,5 @@ main {
 .red{background-color:red;}
 .blue{background-color:blue;}
 .green{background-color:green;}
-.yellow{background-color:yellow;}
+.yellow{background-color:#FFE600;}
 .red,.blue,.green,.yellow{opacity:0.99;}
