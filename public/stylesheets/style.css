@@ -32,7 +32,7 @@ nav, footer, .sidebar {
     margin:0;
 }
 
-#brand:hover {        
+#brand:hover {
     opacity:1;
     padding:0;
     margin:0;
@@ -45,13 +45,13 @@ nav, footer, .sidebar {
 
 nav > ul, footer, .sidebar > ul {
     list-style-type:none;
-    
+
 }
 
 nav > ul > li,#log, #log .btn {
     display:inline;
-    
-   
+
+
 }
 
 nav > ul>li>a, footer>a, #log {
@@ -63,7 +63,7 @@ nav > ul>li>a, footer>a, #log {
     padding-top:25px;
     padding-bottom:25px;
     font-weight:bolder;
-    
+
 }
 
 nav > ul>li>a:hover{
@@ -72,7 +72,7 @@ nav > ul>li>a:hover{
     opacity:0.95;
     background-color:white;
     height:100%;
-    
+
 }
 
 #log .btn {
@@ -91,7 +91,7 @@ nav > ul>li>a:hover{
 main {
     padding-top:10px;
     margin:auto;
-    text-align:left;
+    text-align:justify;
     width:90%;
     font-size:120%;
 }
@@ -126,20 +126,20 @@ footer li {
 }
 
 
-.event { 
-   position: relative; 
+.event {
+   position: relative;
    background-image:url(/images/popcorn.jpg);
    width: 100%; /* for IE 6 */
    margin:10px;
-   
+
 }
 
-.event > h2 { 
-   position: relative; 
-   width: 90%; 
-   color: white; 
-   font: bold 24px/45px Helvetica, Sans-Serif; 
-   letter-spacing: -1px;  
+.event > h2 {
+   position: relative;
+   width: 90%;
+   color: white;
+   font: bold 24px/45px Helvetica, Sans-Serif;
+   letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
@@ -149,17 +149,17 @@ footer li {
 }
 
 .event > p {
-   position: relative; 
-   width: 90%; 
-   color: white; 
-   letter-spacing: -1px;  
+   position: relative;
+   width: 90%;
+   color: white;
+   letter-spacing: -1px;
    background: rgb(0, 0, 0); /* fallback color */
    background: rgba(0, 0, 0, 0.7);
    padding: 10px;
    margin:auto;
    display:none;
-    
-   
+
+
 }
 
 p:target {
@@ -220,7 +220,7 @@ h1,h2 {text-align:center;
 }
 
 main {
-    
+
     width:70%;
     margin:auto;
     font-size:120%;
