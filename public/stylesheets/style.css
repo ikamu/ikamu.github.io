@@ -63,6 +63,7 @@ nav > ul>li>a, footer>a, #log {
     padding-top:25px;
     padding-bottom:25px;
     font-weight:bolder;
+    position:relative;
 
 }
 
@@ -210,7 +211,7 @@ p:target {
     display:inline;
     padding:5%;
 }
-h1,h2 {text-align:center;
+h1,h2,h3 {text-align:center;
     color:black;
 }
 
@@ -230,3 +231,18 @@ main {
 .green{background-color:green;}
 .yellow{background-color:#FFE600;}
 .red,.blue,.green,.yellow{opacity:0.99;}
+
+.dropdown {
+    display: inline;
+}
+
+.dropdown-content {
+    display: none;
+
+}
+
+.dropdown:hover .dropdown-content {
+    position:absolute;
+    display: block;
+    min-width: 160px;
+}
