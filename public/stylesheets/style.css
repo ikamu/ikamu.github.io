@@ -6,7 +6,7 @@ html {
 body {
   padding: 0px;
   margin: 0 0 100px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: "Lucida Grande", Helvetica, Arial, sans-serif;
   width:100%;
   height:auto;
 }
@@ -18,12 +18,12 @@ a {
 
 nav, footer, .sidebar {
     background-color:black;
-    padding:10px;
     color:white;
     text-align:center;
     position:relative;
     width:100%;
     margin:auto;
+    margin-top:0;
 
 }
 
@@ -43,7 +43,7 @@ nav, footer, .sidebar {
 
 
 
-nav > ul, footer, .sidebar > ul {
+nav > ul, footer, .sidebar > ul, .nav > ul {
     list-style-type:none;
 
 }
@@ -54,7 +54,7 @@ nav > ul > li,#log, #log .btn {
 
 }
 
-nav > ul>li>a, footer>a, #log {
+nav > ul>li>a, footer>a, #log, .nav {
     color:white;
     text-decoration:none;
     font-style:none;
@@ -64,6 +64,7 @@ nav > ul>li>a, footer>a, #log {
     padding-bottom:25px;
     font-weight:bolder;
     position:relative;
+    display:inline-block;
 
 }
 
@@ -232,17 +233,30 @@ main {
 .yellow{background-color:#FFE600;}
 .red,.blue,.green,.yellow{opacity:0.99;}
 
-.dropdown {
-    display: inline;
+.nav {
+  background-color:black;
+  padding:0;
+  margin:0;
+  position: fixed;
+  left:0;
+  width:12%;
+  overflow: auto;
 }
 
-.dropdown-content {
-    display: none;
-
+.nav > ul, .nav>ul>li {
+  margin:0;
+  padding:0;
 }
 
-.dropdown:hover .dropdown-content {
-    position:absolute;
-    display: block;
-    min-width: 160px;
+.nav > ul > li > a {
+display:block;
+margin:0;
+}
+
+.cat {
+ display:none;
+}
+
+.cat:target {
+  display:block;
 }
