@@ -253,14 +253,23 @@ display:block;
 margin:0;
 }
 
+
 .cat {
- display:none;
+ display:inline-block;
+ width:45%;
+ margin-right: 2%;
+ margin-left: 2%;
+ vertical-align: top;
 }
 
-.cat:target {
-  display:block;
+.hidden {
+  display:none;
+}
+
+.hidden:target {
+   display:inline-block;
 }
 
 .photo {
-  
+
 }
