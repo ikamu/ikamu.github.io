@@ -270,6 +270,8 @@ margin:0;
    display:inline-block;
 }
 
-.photo {
 
+textarea {
+    width: 400px;
+    height: 150px;
 }
