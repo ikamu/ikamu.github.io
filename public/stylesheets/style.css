@@ -1,6 +1,8 @@
 html {
     position: relative;
     min-height: 100%;
+    background-color: white;
+
 }
 
 body {
@@ -9,6 +11,7 @@ body {
   font: "Lucida Grande", Helvetica, Arial, sans-serif;
   width:100%;
   height:auto;
+
 }
 
 a {
@@ -17,7 +20,7 @@ a {
 }
 
 nav, footer, .sidebar {
-    background-color:white;
+    background-color:transparent;;
     color:white;
     text-align:center;
     position:relative;
@@ -229,7 +232,7 @@ main {
 
 .red{background-color:red;}
 .blue{background-color:blue;}
-.green{background-color:green;}
+.green{background-color:forestgreen;}
 .yellow{background-color:#FFE600;}
 .red,.blue,.green,.yellow{opacity:0.99;}
 
